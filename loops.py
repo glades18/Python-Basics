@@ -61,7 +61,7 @@
 
     def add_all_values_in_list(num_list):
             total = 0 
-            for index in range(len(num_list)):
+            for index in range(0, len(num_list)):
                     total = num_list[index] + num_list[index + 1]
                     total += total
 
