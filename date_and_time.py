@@ -71,7 +71,7 @@ def check_day(day):
         else:
             return False
 
-print(check_day(19)) 
+print(check_day(day)) 
 
 
 def check_year(year):
@@ -82,7 +82,7 @@ def check_year(year):
         else:
             return False
 
-print(check_year(2017))
+print(check_year(year))
 
 
 
