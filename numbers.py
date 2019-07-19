@@ -1,84 +1,63 @@
-    def display_number(num):
-            print('Numbere to display is ' + num)
+import math
 
     
-    def add_number(x, y, z):
-            x = 3
-            y = 10
-            z = 7
+def absolute_number(num):
+            return math.fabs(num)
 
-            total = x + y + z
+print(absolute_number(num))
 
-            while total <= 20 and total > 0:
-                    print('Sum is below 20 and greater than 0') 
+    
+def power(x, y):
+            return math.pow(x, y)
 
-            return total
-
-
-    def count_list(num_list):
-            count = 0
-
-            for index in num_list:
-                    print(count)
-                    count += 1
-
-            return count
+print(power(x, y))
 
 
-    def qualification(age, work_experience):
-            qualified_to_join = True
+def square_root(num):
+            return math.sqrt(num)
 
-            if age > 30 and work_experience > 10:
-                     return qualified_to_join
-            else:
-                    qualified_to_join= False
-                    return qualified_to_join
+print(square_root(num))
 
 
-    def add_list(number):
-            my_list = [0, 1, 2, 3]
+def logarithmic(num):
+            return math.log(num)
 
-            my_list.append([number])
-
-            return my_list
+print(logarithmic(num))
 
 
-    def create_list(stock, repeat):
-            my_list = []
+def minimum(a, b, chr):
+            return min(a, b, c)
 
-            while repeat != 0:
-                    mylist.append([number])
-                    repeat -= 1
+print(minimum(a, b, c))
 
 
-    def determine_age_in_the_next_years(age, years):
-            total = age + years
-            print('Your age in the next ' + years + ' is ' + total)
+def round_number(x, y):
+            return round(x, y)
 
-            return total
+print(round_number(x, y))
 
+def maximum(a, b):
+            return max(a, b)
 
-    def combine_basic_operators(first_num, second_num, third_num, fourth_num):
-            result = first_num/third_num + second_num*fourth_num - 100
-
-            return result
+print(maximum(a, b))
 
 
-    def multiply_numbers(first_number, second_number):
-            print('We multiply ' + second_number + ' with ' + first_number)
+def floor(num):
+            return math.floor(num)
 
-            result = second_number * first_number
-
-            print('Result is ' + 'result')
-
-            return result
+print(floor(num))
 
 
-    def even_odd(num):
-            if num % 2 == 0:
-                    print('Number is Even')
-            else:
-                print('Number is Odd')
+def ceiling(x):
+            return math.ceil(x)
+
+print(ceiling(x))
+
+
+def fraction_integer(num):
+            return math.modf(x)
+
+print(fraction_integer(num))
             
           
 
