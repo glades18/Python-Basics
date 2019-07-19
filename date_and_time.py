@@ -1,5 +1,4 @@
-from datetime import datetime
-from datetime import date
+from datetime import datetime, date
     
     
 def current_date_time():
